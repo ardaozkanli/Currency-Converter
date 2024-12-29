@@ -38,7 +38,7 @@ function Currency() {
           value={amount}
           onChange={(e) => setAmount(e.target.value)}
           className="amount-input"
-          placeholder="Enter the amount"
+          placeholder="Enter thee amount"
         />
         <select
           value={fromCurrency}

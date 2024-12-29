@@ -1,0 +1,48 @@
+.currency-container {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45rem;
+  background-color: white;
+}
+
+.app-title {
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 20px 0px;
+}
+
+.currency-div {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 50px;
+}
+
+.currency-select {
+  width: 100px;
+  padding: 10px;
+}
+
+.currency-div input {
+  padding: 10px;
+}
+
+.convert-btn {
+  background-color: black;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 10px;
+  width: 150px;
+}
